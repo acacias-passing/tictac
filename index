@@ -1,0 +1,18 @@
+# Simple Python Script
+
+def get_user_name():
+    """
+    Function to get the user's name.
+    """
+    name = input("Enter your name: ")
+    return name
+
+def greet_user(name):
+    """
+    Function to print a personalized greeting.
+    """
+    print(f"Hello, {name}! Welcome to the simple Python script.")
+
+if __name__ == "__main__":
+    user_name = get_user_name()
+    greet_user(user_name)
